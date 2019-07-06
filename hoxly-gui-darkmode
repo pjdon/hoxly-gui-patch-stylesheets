@@ -1,0 +1,30 @@
+/* Dark Mode */
+body,
+.page-footer {
+    background-color: #232323 !important;
+    color: #cccccc !important;
+}
+input, textarea, select {
+    background-color: #404040 !important;
+    color: #cccccc !important;
+    border-color: #404040 !important;
+}
+.primary-color {
+    background-color: #3e3e3e !important;
+}
+.btn-primary {
+    background-color: #3e3e3e !important;
+}
+a {
+    color: #6db5ff ;
+}
+a:hover {
+    color: #2791ff ;
+}
+div.voting > *:nth-child(2) {
+    filter: grayscale(70%) brightness(120%);
+    color: #2f2f2f !important;
+}
+.list-group-item {
+    background-color: #373737 !important;
+}
