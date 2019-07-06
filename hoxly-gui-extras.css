@@ -1,0 +1,41 @@
+/* Remove helper alert */
+div.alert.alert-info{
+    display: none;
+}
+
+/* Give  "See all the facts" a pointer */
+* [onclick^="facts"] {
+    cursor: pointer;
+}
+
+/* Button text slightly larger */
+.btn-primary {
+    font-size: 0.8rem !important;
+}
+
+/* Resrrange elements */
+/* place search on top */
+body > div.container > div.row {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+/* sections take up full width of margined page */
+div.container > div.row > div {
+    max-width: 100% !important;
+}
+div.container > div.row > div:nth-child(1) {
+    line-height: 1.6;
+}
+/* extra space above next/previous button */
+div.container > div.row > div:nth-child(1) > center {
+    margin-top: 1rem;
+}
+
+/* Align titles regardless of vote count */
+div.voting {
+    margin-right: 1em;
+}
+div.voting > *:nth-child(2) {
+    min-width: 2rem;
+}
